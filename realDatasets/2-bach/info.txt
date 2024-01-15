@@ -1,0 +1,6 @@
+Bach choral set  https://www.apispreadsheets.com/datasets
+
+Predict which chord was played in a Bach piece given pitch, bass and meter
+
+
+dimension: 14  rows: 5665

@@ -1,0 +1,5 @@
+https://www.apispreadsheets.com/datasets
+
+Predict whether a mushroom species is edible or poisonous
+
+dimension: 22 rows: 8417

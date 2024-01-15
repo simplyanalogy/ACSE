@@ -1,0 +1,19 @@
+I have added the bib entry as Simonoff2003
+dmft
+
+dimension: 4, rows: 797
+It has 797 rows and 5 columns: with the following attributes and values. The last column is the target (intervention).
+@attribute DMFT.Begin {0,1,2,3,4,5,6,7,8}
+@attribute DMFT.End {0,1,2,3,4,5,6}
+@attribute Gender {Female,Male}
+@attribute Ethnic {Black,Dark,White}
+@attribute Prevention {All_methods,Diet_enrichment,Health_education,Mouthwash,None,Oral_hygiene}
+
+https://www.openml.org/search?type=data&status=active&id=469
+
+Current dataset: ../openMLData/3-dmft/data.csv with dimension: 4  and number of rows 797
+Total num of pairs (a,b): 499500  - num of matching pairs i.e. such that a:b::c:d 0  - num of matching pairs with different classes: 0  - Confidence: 0
+1) We have found 2 relevant attributes among 4 which are: [2, 4] .
+Our explanations why vector D: [2 0 'Female' 'White'] is in class Oral_hygiene :
+2) C [1 0 'Male' 'Black'] is one of the nearest neighbours of D and C is in class Health_education
+3) We do not have any matching profile in the dataset: we cannot conclude.

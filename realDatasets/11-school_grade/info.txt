@@ -1,0 +1,4 @@
+school_grade from mldata.io https://www.apispreadsheets.com/datasets
+Predict grades of school students based on lifestyle attributes
+
+dimension: 32 rows: 649

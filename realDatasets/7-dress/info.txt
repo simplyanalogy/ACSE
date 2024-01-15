@@ -1,0 +1,34 @@
+https://www.openml.org/search?type=data&status=active&id=45061
+
+This dataset contain attributes of dresses and their recommendations according to their sales. Sales are monitor on the basis of alternate days.The attributes present analyzed are: Recommendation, Style, Price, Rating, Size, Season, NeckLine, SleeveLength, waiseline, Material, FabricType, Decoration, Pattern, Type. In this dataset they are named Class(target) and then subsequently V2 - V13.Contact:Muhammad Usman & Adeel Ahmed, usman.madspot '@' gmail.com adeel.ahmed92 '@' gmail.com, Air University, Students at Air University.
+
+@relation R_data_frame
+
+dimension: 12 rows: 500
+
+
+
+@attribute V2 {bohemian,Brief,Casual,cute,fashion,Flare,Novelty,OL,party,sexy,Sexy,vintage,work}
+@attribute V3 {Average,high,High,low,Low,Medium,very-high}
+@attribute V4 numeric
+@attribute V5 {free,L,M,s,S,small,XL}
+@attribute V6 {Automn,Autumn,spring,Spring,summer,Summer,winter,Winter}
+@attribute V7 {backless,boat-neck,bowneck,halter,mandarin-collor,o-neck,open,peterpan-collor,ruffled,Scoop,slash-neck,sqare-collor,sweetheart,Sweetheart,turndowncollor,v-neck}
+@attribute V8 {butterfly,capsleeves,cap-sleeves,full,half,halfsleeve,Petal,short,sleeevless,sleeveless,sleevless,sleveless,threequarter,threequater,thressqatar,turndowncollor,urndowncollor}
+@attribute V9 {dropped,empire,natural,princess}
+@attribute V10 {acrylic,cashmere,chiffonfabric,cotton,knitting,lace,linen,lycra,microfiber,milksilk,mix,modal,model,nylon,other,polyster,rayon,shiffon,silk,sill,spandex,viscos,wool}
+@attribute V11 {batik,broadcloth,chiffon,Corduroy,dobby,flannael,flannel,jersey,knitted,knitting,lace,organza,other,poplin,satin,sattin,shiffon,terry,tulle,wollen,woolen,worsted}
+@attribute V12 {applique,beading,bow,button,cascading,crystal,draped,embroidary,feathers,flowers,hollowout,lace,none,pearls,plain,pleat,pockets,rivet,ruched,ruffles,sashes,sequined,tassel,Tiered}
+@attribute V13 {animal,character,dot,floral,geometric,leapord,leopard,none,patchwork,plaid,print,solid,splice,striped}
+@attribute Class {1,2}
+
+*****************
+Current dataset: ../openMLData/4-dress/data.csv with dimension: 12  and number of rows 500
+Total num of pairs (a,b): 499500  - num of matching pairs i.e. such that a:b::c:d 0  - num of matching pairs with different classes: 0  - Confidence: 0
+1) We have found 6 relevant attributes among 12 which are: [1, 2, 3, 4, 5, 7] .
+Our explanations why vector D: ['Casual' 'Average' 4.8 'M' 'Winter' 'o-neck' 'short' 'natural' 'lycra'
+ 'broadcloth' 'applique' 'patchwork'] is in class 1 :
+2) C ['Casual' 'Average' 4.8 'L' 'Winter' 'o-neck' 'short' 'natural' 'cotton'
+ '?' 'pockets' 'solid'] is one of the nearest neighbours of D and C is in class 2
+3) We do not have any matching profile in the dataset: we cannot conclude.
+
